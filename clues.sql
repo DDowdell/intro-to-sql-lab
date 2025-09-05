@@ -38,6 +38,8 @@ world=# select name, countrycode from cities where name like 'Serra%' and countr
 -- follow right behind you!
 
 -- Write SQL query here
+world=# select * from cities where countrycode = 'BRA' and id = 211;
+
 
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the landing dock. Lucky for us, she's getting cocky. She left us a note (below), and I'm sure she thinks she's very clever, but if we can crack it, we can finally put her where she belongs – behind bars.
